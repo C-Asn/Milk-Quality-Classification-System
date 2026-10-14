@@ -57,8 +57,8 @@ Projects/
 
 ### 2. Clone / Open Project
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
-cd Projects
+git clone https://github.com/C-Asn/Milk-Quality-Classification-System.git
+cd Milk-Quality-Classification-System
 ```
 
 ### 3. Install Dependencies
