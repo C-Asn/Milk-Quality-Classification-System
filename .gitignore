@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.vscode/
+.idea/
+.ipynb_checkpoints/
+*.tmp
+figma_thumbnail*.png
+signconnect_prototype.html
+google_doc_content.txt
+

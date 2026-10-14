@@ -1,0 +1,92 @@
+{
+    "dataset_size": 1059,
+    "train_samples": 741,
+    "test_samples": 318,
+    "baseline_rf": {
+        "accuracy": 0.9968553459119497,
+        "precision": 0.9968831747091891,
+        "recall": 0.9968553459119497,
+        "f1_score": 0.9968520573847987
+    },
+    "optimized_rf": {
+        "best_params": {
+            "criterion": "gini",
+            "max_depth": 10,
+            "min_samples_leaf": 1,
+            "min_samples_split": 2,
+            "n_estimators": 50
+        },
+        "cv_accuracy": 0.9972972972972972,
+        "accuracy": 0.9968553459119497,
+        "precision": 0.9968831747091891,
+        "recall": 0.9968553459119497,
+        "f1_score": 0.9968520573847987
+    },
+    "feature_importances": {
+        "Taste": 0.03749482750737553,
+        "Colour": 0.0515422348448657,
+        "Odor": 0.07988274218996878,
+        "Turbidity": 0.08436853279838198,
+        "Fat": 0.10628245173187574,
+        "Temprature": 0.21754967045308563,
+        "pH": 0.42287954047444676
+    },
+    "comparison": [
+        {
+            "Algorithm": "Gradient Tree Boosting",
+            "Accuracy": 0.9969,
+            "Precision": 0.9969,
+            "Recall": 0.9969,
+            "F1-Score": 0.9969
+        },
+        {
+            "Algorithm": "Decision Tree",
+            "Accuracy": 0.978,
+            "Precision": 0.9781,
+            "Recall": 0.978,
+            "F1-Score": 0.978
+        },
+        {
+            "Algorithm": "Support Vector Machine",
+            "Accuracy": 0.8899,
+            "Precision": 0.8949,
+            "Recall": 0.8899,
+            "F1-Score": 0.891
+        },
+        {
+            "Algorithm": "Neural Network (MLP)",
+            "Accuracy": 0.9937,
+            "Precision": 0.9938,
+            "Recall": 0.9937,
+            "F1-Score": 0.9937
+        },
+        {
+            "Algorithm": "AdaBoost",
+            "Accuracy": 0.9088,
+            "Precision": 0.9102,
+            "Recall": 0.9088,
+            "F1-Score": 0.9075
+        },
+        {
+            "Algorithm": "Baseline Random Forest",
+            "Accuracy": 0.9969,
+            "Precision": 0.9969,
+            "Recall": 0.9969,
+            "F1-Score": 0.9969
+        },
+        {
+            "Algorithm": "Optimized Random Forest",
+            "Accuracy": 0.9969,
+            "Precision": 0.9969,
+            "Recall": 0.9969,
+            "F1-Score": 0.9969
+        },
+        {
+            "Algorithm": "k-Nearest Neighbors (k-NN)",
+            "Accuracy": 0.9969,
+            "Precision": 0.9969,
+            "Recall": 0.9969,
+            "F1-Score": 0.9969
+        }
+    ]
+}
